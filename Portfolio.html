@@ -18,79 +18,63 @@
     
   </head>
 
-  <style>.Bold { color: aliceblue;
+  <style>.FondoTexto1 { color: aliceblue;
     font-size: larger;
-    background-color: brown;
+    background-color: rgb(255, 202, 105);
   } 
+  .caja-cara {
+    display: flex;
+    justify-content: left;
+    align-items: right;
+    width: 800%;
+}
+.Foto{
+    height: 200px;
+    border: 3px solid #ff4242;
+    margin: 10px;
+    border-radius: 200px;
+}
+header{
+    height: 65px;
+    background-color:crimson;
+    color: white;
+    display: flex;
+    align-items: center;
+    padding-left: 25px;
+}
+
+.caja-cara {
+    width: 100%;
+    background-color: #424242;
+    color: aliceblue;
+  }
+.Prueba {
+  padding:  10px 50px 20px;
+}
   </style>
-<title align="center"> Mi Portfolio</title>
-
-<img width="60px" height="60px" align="center" src="Proyecto git/WhatsApp Image 2022-12-14 at 14.19.45.jpeg  "  alt="Mi foto">
-
-<p align="center"> Ezequiel Torres</p>
-
-<a class="Bold">Registrate</a>
-  <form>
-
-    <div class="mb-3">
-
-      <label for="idE" class="form-label">Aca pone algo asi como tu correo</label>
-
-      <input type="email" class="form-control" id="idE" aria-describedby ="idEH">
-
-      <div id="idEH" class="form-text">Debe ser un correo válido.</div>
-
-    </div>
-
-    <div class="mb-3">
-
-      <label for="exampleInputPassword1" class="form-label">Aca va la clave viteh</label>
-
-      <input type="password" class="form-control" id="exampleInputPassword1">
-
-      <div class="mb-3">
-
-        <label for="exampleInputPassword1" class="form-label">Y deja tu ig si te pinta</label>
   
-        <input type="text" class="form-control" id="idEH">
+<title Align="center"> 
+  Mi Portfolio
+</title>
 
+<body>
+<header class="header">
+  <div>
+    <h1 Align="center">
+      Mi Portfolio
+    </h1>
     </div>
+</header>
 
-    <div class="mb-3 form-check">
+<div class="caja-cara">
+<img src="https://lh3.googleusercontent.com/WpNV4Ac39YYwMwWXvdBx1tCsUKkyQPcwgt9H0fl-I8FQMPiHeY4xCt2JUMEetWpmfgqtKk5qhdUSE2NJD3SANocBPQXS6VA4Xz63cZyvv3vwoP3z0_6BuP9eMUigS7x-ik3C22T7mpc=w600-h315-p-k" Class="Foto" alt="Mi foto">
 
-      <input type="checkbox" class="form-check-input" id="exampleCheck1">
+<b Align="left" class="Prueba" > Sobre Mi</b>
 
-      <label class="form-check-label" for="exampleCheck1">Recordarme</label>
+<br Align="left"> Mi nombre es Ezequiel Torres. La verdad que me da mucha paja describirme
+asi que solo voy a poner que me gusta la procrastinacion y me da miedo la pala. </br>
 
-    </div>
-
-    <button type="submit" class="btn btn-primary">Enviar</button>
-
-    <div class="alert alert-primary" role="alert">
-
-        Pusiste mal el mail che!
-  
-    </div>
-   
-    <nav><button type="button" class="btn btn-primary">Primary</button>
-
-        <button type="button" class="btn btn-primary">Secondary</button>
-        
-        <button type="button" class="btn btn-success">Success</button>
-        
-        <button type="button" class="btn btn-danger">Danger</button>
-        
-        <button type="button" class="btn btn-warning">Warning</button>
-        
-        <button type="button" class="btn btn-info">Info</button>
-        
-        <button type="button" class="btn btn-light">Light 
-            <link rel="stylesheet" href="https://www.youtube.com/watch?v=E1tO2UxZeh8"> </button> 
-        
-        <button type="button" class="btn btn-dark">Dark</button>
-        
-        </nav>
-
-</form>
+</div>
+</body>
 
 </html>
